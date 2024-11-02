@@ -1,0 +1,102 @@
+
+.container-items{
+	padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-item{
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+	width: 200px;
+  height: 380px;
+	background-color: #fff;
+	padding: 5px 12px 12px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.container-item li p{
+	margin-left: 10px;
+  font-size: 11px;
+  color: #333;
+  opacity: 0.5;
+}
+.container-item li{
+	display: inline-flex;
+    align-items: center;
+}
+.container-item li i{
+	list-style-type: none;
+	color: #FFD700; 
+  margin-right: 3px; 
+  font-size: 11px;
+}
+.container-item h3{
+	font-size: 14px;
+}
+.container-item p{
+	color: red;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.container-item .label{
+	background-color: #f39c12;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.container-item:hover img{
+  transform: translateY(-10px);
+}
+.container-item img{
+  padding-left: 20px;
+  width: 150px;
+  transition: all 0.3s ease;
+}
+.container-item .old-price1{
+  opacity: 0.5;
+  font-size: 11px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.footer {
+  background-color: #D00404;
+  color: #FFFFFF;
+  text-align: center;
+}
+.footer-logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 150px;
+}
+.footer-contact {
+  margin-bottom: 20px;
+}
+.footer-contact a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+  padding: 200px 10px;
+}
+.footer-contact {
+  margin-bottom: 20px;
+}
+.footer-contact p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.buyNowButton{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
